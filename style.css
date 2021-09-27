@@ -1796,7 +1796,7 @@ body.royal_loader {
 /* Home 1 */
 /* Experience */
 .bg-top-right {
-  background: url(images/bg/experience-1.png) no-repeat;
+  background: url(images/bg/experience-2.jpg) no-repeat;
   background-position: top right;
   -webkit-background-origin: content-box;
           background-origin: content-box;
@@ -5600,7 +5600,7 @@ footer.dark {
 .typo-1 {
   letter-spacing: 10px;
   color: #fff;
-  /* text-transform: uppercase; */
+  /* experience */
   font-weight: 500;
 }
 .typo-2 {
