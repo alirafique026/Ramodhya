@@ -1888,7 +1888,7 @@ body.royal_loader {
           transition: all 0.5s ease-in-out;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
 }
 .partner-item:hover img {
   -webkit-filter: grayscale(0);

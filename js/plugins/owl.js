@@ -18,7 +18,7 @@
                 autoPlay: true, //Set AutoPlay to 3 seconds
                 items : 1,
                 loop:true,
-                dots:false,
+                dots:true,
                 nav:false,
                 animateOut: 'fadeOut',
                 animateIn: 'fadeIn',
