@@ -146,16 +146,16 @@ input[type=email] {
   padding: 0 45px;
   line-height: 50px;
   outline: none;
-  /* -webkit-transition: all 0.5s ease-in-out;
-          transition: all 0.5s ease-in-out; */
+ -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
   display: inline-block;
   position: relative;
   color: #999494;
 }
-/* .ot-btn:hover,
+ .ot-btn:hover,
 .ot-btn:focus {
   text-decoration: none;
-} */
+} 
 .border-dark:before {
   position: absolute;
   top: 0;
@@ -182,7 +182,7 @@ input[type=email] {
   border-top: 0;
   content: "";
 }
-/* .border-dark:hover:after,
+ .border-dark:hover:after,
 .border-dark:hover:before {
   width: 100%;
   height: 100%;
@@ -190,7 +190,7 @@ input[type=email] {
 } 
 .border-dark:hover {
   color: #ff7400;
-} */
+} 
 .border-theme:before {
   position: absolute;
   top: 0;
@@ -198,8 +198,8 @@ input[type=email] {
   width: 55px;
   height: 25px;
   border: 2px solid #ff7400;
-  /* -webkit-transition: all 0.5s ease-in-out;
-          transition: all 0.5s ease-in-out; */
+ -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
   border-right: 0;
   border-bottom: 0;
   content: "";
@@ -211,18 +211,18 @@ input[type=email] {
   width: 55px;
   height: 25px;
   border: 2px solid #ff7400;
-  /* -webkit-transition: all 0.5s ease-in-out;
-          transition: all 0.5s ease-in-out; */
+   -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out; 
   border-left: 0;
   border-top: 0;
   content: "";
 }
-/* .border-theme:hover:after,
+ .border-theme:hover:after,
 .border-theme:hover:before {
   width: 100%;
   height: 100%;
   border-color: #ff7400;
-} */
+} 
 .ot-btn-classic {
   font-size: 14px;
   text-align: center;
@@ -1865,7 +1865,7 @@ body.royal_loader {
 }
 /* Testimonial */
 .item-testimonial-1 {
-  color: #bfbdbd;
+  color: #ffffff;
   max-width: 700px;
   margin: 0 auto;
 }
