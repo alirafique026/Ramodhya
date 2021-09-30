@@ -11,13 +11,13 @@ $( document ).ready(function() {"use strict";
                             jsFileLocation: "../../revolution/js/",
                             sliderLayout: "auto",
                             fullScreenOffsetContainer:".header-home",
-                            delay: 9999000,
+                            delay: 3500,
                             navigation: {
                                 arrows:{enable:false},
                                 bullets: {
                                      style:"custom",
                                      enable:true,
-                                     hide_onmobile:true,
+                                     hide_onmobile:false,
                                      hide_onleave:false,
                                      hide_delay:200,
                                      hide_delay_mobile:480,
