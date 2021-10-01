@@ -1844,7 +1844,7 @@ body.royal_loader {
 /* Portfolio */
 .portfolio-des {
   max-width: 440px;
-  padding-top: 135px;
+  /* padding-top: 135px; */
 }
 .owl-portfolio-h1 {
   position: relative;
@@ -8535,7 +8535,7 @@ footer.dark {
     padding: 0 15px;
   }
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1546px) {
   /* Header */
   /* Slider */
   .custom.horizontal {
@@ -8585,9 +8585,9 @@ footer.dark {
     -webkit-background-size: 30% 30%;
             background-size: 30%;
   }
-  .w-680 {
+  /* .w-680 {
     width: 380px;
-  }
+  } */
   /* Footer */
   .footer-link-2 li a {
     padding: 0 10px;
@@ -9197,4 +9197,34 @@ footer.dark {
   display: flex;
   justify-content: center;
 }
+
+.follow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.know {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 723px) {
+  .follow {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.ban {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 200px;
+}
+
 
